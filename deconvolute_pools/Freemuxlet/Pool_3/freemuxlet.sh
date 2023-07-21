@@ -8,7 +8,7 @@ BARCODES="/storage/home/mfisher42/scProjects/CD_Subra/rawdata/Maggie_Organized_D
 # This step took 14 hours; maybe try to do each chromosome in parallel next time
 
 mkdir tmp
-./sort_vcf_same_as_bam.sh $BAMFLE ../ALL.wgs.shapeit2_integrated_v1a.GRCh38.20181129.sites.vcf.gz > ./tmp/samples.sorted_as_in_bam.vcf
+../sort_vcf_same_as_bam.sh $BAMFLE ../ALL.wgs.shapeit2_integrated_v1a.GRCh38.20181129.sites.vcf.gz > ./tmp/samples.sorted_as_in_bam.vcf
 
 popscle dsc-pileup --sam $BAMFILE --group-list $BARCODES --vcf tmp/samples.sorted_as_in_bam.vcf --out samples_to_demultiplex.pileup
 
