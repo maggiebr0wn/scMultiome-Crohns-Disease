@@ -3,4 +3,8 @@
 
 ### About:
 
+## TF Binding Site Analysis:
+Pipeline is available as a deployable tool here: 
+[scMultiome-TFBS-Analysis](https://github.com/maggiebr0wn/scMultiome-TFBS-Analysis) 
+
 ***Manuscript in preparation!***
