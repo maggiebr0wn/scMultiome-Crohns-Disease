@@ -15,4 +15,4 @@ popscle dsc-pileup --sam $BAMFILE --group-list $BARCODES --vcf tmp/samples.sorte
 # 2.) Freemuxlet is then run in cases where genotype data is unavailable; used to deconvolute sample identity and identify multiplets when multiple samples are pooled by barcoded single cell sequencing.
 
 # This step took ~30% Memory
-popscle freemuxlet --plp samples_to_demultiplex.pileup --out freemuxlet_output --nsample 3
+popscle freemuxlet --plp samples_to_demultiplex.pileup --out freemuxlet_output --nsample 2
