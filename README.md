@@ -3,4 +3,4 @@
 
 ### About:
 
-***Manuscript in prepatation!***
+***Manuscript in preparation!***
