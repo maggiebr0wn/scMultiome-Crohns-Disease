@@ -17,7 +17,7 @@ Pipeline is available as a deployable tool here:
 [scMultiome-TFBS-Analysis](https://github.com/maggiebr0wn/scMultiome-TFBS-Analysis) 
 
 <p align="center">
-  <img src="https://github.com/maggiebr0wn/scMultiome-Crohns-Disease/blob/main/images/main_figs_results.jpg" width = 1000 height = 600>
+  <img src="https://github.com/maggiebr0wn/scMultiome-Crohns-Disease/blob/main/images/main_results_multiome.jpg" width = 1000 height = 700>
 </p>
 
 ***Manuscript in preparation!***
