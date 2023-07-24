@@ -42,7 +42,7 @@ projIBD$Batch <- mapLabels(projIBD$Sample, newLabels = labelNew, oldLabels = lab
 ### 1.0 LSI v1 ###
 ##################
 
-### ATAC 1:15 ### --> interactive :)
+### ATAC 1:15 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -60,7 +60,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:15
    )
 
-### RNA 1:15 ### --> interactive :)
+### RNA 1:15 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -81,7 +81,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:15
    )
 
-### Combo 1:15 ### --> interactive :)
+### Combo 1:15 ###
 
 projIBD <- addCombinedDims(
      projIBD,
@@ -106,7 +106,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:20
    )
 
-### RNA 1:20 ### --> interactive :)
+### RNA 1:20 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -127,14 +127,14 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:20
    )
 
-### Combo 1:20 ### --> interactive :)
+### Combo 1:20 ###
 
 projIBD <- addCombinedDims(
      projIBD,
      reducedDims = c("ATAC_IterLSIv1_Dims1to20", "RNA_IterLSIv1_Dims1to20"),
      name =  "Combo_IterLSIv1_Dims1to20")
 
-### ATAC 1:30 ### --> interactive :)
+### ATAC 1:30 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -152,7 +152,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:30
    )
 
-### RNA 1:30 ### --> interactive :)
+### RNA 1:30 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -173,7 +173,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:30
    )
 
-### Combo 1:30 ### --> interactive :)
+### Combo 1:30 ###
 
 projIBD <- addCombinedDims(
      projIBD,
@@ -186,7 +186,7 @@ saveArchRProject(projIBD)
 ### 2.0 LSI v2 ###
 ##################
 
-### ATAC 1:15 ### --> interactive :)
+### ATAC 1:15 ###
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -204,7 +204,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:15
    )
 
-### RNA 1:15 ### --> interactive :)
+### RNA 1:15 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -225,14 +225,14 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:15
    )
 
-### Combo 1:15 ### --> interactive :)
+### Combo 1:15 ### 
 
 projIBD <- addCombinedDims(
      projIBD,
      reducedDims = c("ATAC_IterLSIv2_Dims1to15", "RNA_IterLSIv2_Dims1to15"),
      name =  "Combo_IterLSIv2_Dims1to15")
 
-### ATAC 1:20 ### --> interactive :)
+### ATAC 1:20 ###
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -250,7 +250,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:20
    )
 
-### RNA 1:20 ### --> interactive :)
+### RNA 1:20 ###
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -271,14 +271,14 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:20
    )
 
-### Combo 1:20 ### --> interactive :)
+### Combo 1:20 ### 
 
 projIBD <- addCombinedDims(
      projIBD,
      reducedDims = c("ATAC_IterLSIv2_Dims1to20", "RNA_IterLSIv2_Dims1to20"),
      name =  "Combo_IterLSIv2_Dims1to20")
 
-### ATAC 1:30 ### --> interactive :)
+### ATAC 1:30 ### 
 
 projIBD <- addIterativeLSI(
      ArchRProj = projIBD,
@@ -296,7 +296,7 @@ projIBD <- addIterativeLSI(
      dimsToUse = 1:30
    )
 
-### RNA 1:30 ### --> interactive :)
+### RNA 1:30 ### 
 
 projIBD <- addIterativeLSI(
   ArchRProj = projIBD,
@@ -330,7 +330,7 @@ saveArchRProject(projIBD)
 ### 3.0 LSI v3 ###
 ##################
 
-### ATAC 1:15 ### --> interactive :)
+### ATAC 1:15 ###
 
 projIBD <- addIterativeLSI(
   ArchRProj = projIBD,
