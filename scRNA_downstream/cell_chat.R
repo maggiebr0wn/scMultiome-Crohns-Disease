@@ -157,11 +157,6 @@ ht1 = netAnalysis_signalingRole_heatmap(object.list[[i]], pattern = "outgoing", 
 ht2 = netAnalysis_signalingRole_heatmap(object.list[[i+1]], pattern = "outgoing", signaling = pathway.union, title = names(object.list)[i+1], width = 5, height = 6)
 draw(ht1 + ht2, ht_gap = unit(0.5, "cm"))
 
-
-
-
-
-
 # violin plot
 ibd_seurat <- SetIdent(ibd_seurat, value = "Status_Donor")
 
