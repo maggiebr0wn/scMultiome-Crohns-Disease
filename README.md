@@ -1,6 +1,8 @@
 # scMultiome-Crohns-Disease
 ## This project characterizes the multiomic landscape of PBMC in Crohn's disease using scATAC-seq and scRNA-seq data.
 
+***Manuscript in preparation!***
+
 <p align="center">
   <img src="https://github.com/maggiebr0wn/scMultiome-Crohns-Disease/blob/main/images/workflow.jpg" width = 900 height = 240>
 </p>
@@ -21,4 +23,4 @@ Pipeline is available as a deployable tool here:
   <img src="https://github.com/maggiebr0wn/scMultiome-Crohns-Disease/blob/main/images/main_results_multiome.jpg" width = 1000 height = 580>
 </p>
 
-***Manuscript in preparation!***
+
