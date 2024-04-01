@@ -1,7 +1,7 @@
 # scMultiome-Crohns-Disease
 ## This project characterizes the multiomic landscape of PBMC in Crohn's disease using scATAC-seq and scRNA-seq data.
 
-***Manuscript under review!***
+***Manuscript accepted at Journal of Crohn's and Colitis March 2024!***
 
 <p align="center">
   <img src="https://github.com/maggiebr0wn/scMultiome-Crohns-Disease/blob/main/images/workflow.jpg" width = 900 height = 240>
